@@ -1,0 +1,27 @@
+{
+  "name": "ethereum-smart-contract-compiler",
+  "version": "1.0.1",
+  "description": "A tool for compiling Solidity smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "esmac": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lejdiprifti/esmac.git"
+  },
+  "keywords": [],
+  "author": "priftil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lejdiprifti/esmac/issues"
+  },
+  "homepage": "https://github.com/lejdiprifti/esmac#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "solc": "^0.8.23-fixed"
+  }
+}
